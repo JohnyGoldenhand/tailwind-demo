@@ -15,3 +15,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components{
+    .sidebar-element{
+      @apply 
+      flex justify-center items-center
+      h-20 w-20 mt-2 mb-2 mx-auto 
+      hover:text-green-600 
+      bg-gray-900 rounded-full 
+      hover:rounded-xl hover:scale-110
+      transition ease-in-out duration-300
+    }
+
+    .sidebar-tooltip{
+      @apply
+      absolute left-28 w-auto p-2 m-2
+      bg-gray-900 rounded-md
+      text-white text-xs font-bold
+      transition-all  origin-left duration-300 scale-0
+      
+    }
+
+}
