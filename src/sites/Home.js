@@ -1,9 +1,8 @@
 import React from 'react'
-import Sidebar from '../components/Sidebar'
 
 function Home() {
   return (
-    <div className='flex w-auto h-screen bg-blue-300 flex-end'>
+    <div className='flex grow h-screen bg-blue-300 col-auto'>
       <p>HomePage</p>
     </div>
   )

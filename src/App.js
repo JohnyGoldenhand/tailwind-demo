@@ -5,7 +5,7 @@ import Home from './sites/Home';
 function App() {
   return (
     <div className="App">
-      <div className='flex flex-row space-x-40'>
+      <div className='flex flex-row flex-nowrap col-auto'>
         <Sidebar/>
         <Home>
         </Home>
